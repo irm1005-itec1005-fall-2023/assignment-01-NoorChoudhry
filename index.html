@@ -94,7 +94,7 @@
         <legend>Your information:</legend>
 
           <label for="name">Name:</label>
-          <input type="" id="name" name="" required>
+          <input type="text" id="name" name="name" required>
 
           <label for="email">E-mail:</label>
           <input type="email" id="email" name="email" autocomplete="email" required>
@@ -104,6 +104,7 @@
 
           <label for="meet">Would you like a reply?:</label>
           <select id="meet" name="meet" required >
+            <option aria-placeholder="select">Select one</option>
             <option value="meetyes">yes</option>
             <option value="meetno">no</option>
             <option value="meetidk">maybe</option>
@@ -114,7 +115,7 @@
         <legend> Your message:</legend>
 
           <label for="msg">Message:</label>
-          <input type="message" id="msg" name="msg" required>
+          <input type="text" id="msg" name="msg" required>
 
       <input type="submit" value="submit">
     </fieldset> 
