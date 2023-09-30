@@ -3,6 +3,10 @@ body {
     color: ivory;
 }
 
+
+/* HEADER BEGINS HERE */
+
+
 header {
     padding: 2rem;
     text-align: center;
@@ -29,6 +33,10 @@ header a:hover {
     text-decoration: underline;
 }
 
+
+/* MAIN BEGINS HERE */
+
+
 main {
     padding: 2rem;
     border-radius: 1rem;
@@ -36,15 +44,29 @@ main {
     color: darkgreen;
 }
 
+.form {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(173, 204, 153);
+    border-radius: 1rem;
+    color: ivory;
+    border-style:double ; groove; 
+    border-color: darkgreen;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+
+/* FOOTER BEGINS HERE */
+
+
 footer {
     background-color: darkgreen;
     border-radius: 1rem;
     margin: 3rem 0 0rem 0;
 }
-
-/* display: flex; justify-content: 
-    space-evenly; align-items: center   */ 
-
 
 footer .bottomlogo {
     height: 75px;
@@ -55,14 +77,18 @@ footer .bottomlogo {
 footer h1 {
     color: inherit;
     text-align: center;
-    border: 4rem 4 0rem 0;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
 }
 
 footer p {
     margin-top: 3rem;
     margin-left: 1.5rem;
     color:  rgb(173, 204, 153);
+}
+
+footer ul {
+    list-style: square; color: rgb(247, 251, 175);
 }
 
 footer a {
