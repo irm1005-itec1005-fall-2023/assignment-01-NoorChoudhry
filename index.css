@@ -44,6 +44,13 @@ main {
     color: darkgreen;
 }
 
+h1 {
+    text-align: center;
+    background-color: rgb(173, 204, 153);
+    border-radius: 1rem;
+    color: ivory;
+}
+
 main .sport {
     width: 500px;
     height: 500px;
