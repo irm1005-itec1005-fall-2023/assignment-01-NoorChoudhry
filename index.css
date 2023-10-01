@@ -44,6 +44,15 @@ main {
     color: darkgreen;
 }
 
+main .sport {
+    width: 500px;
+    height: 500px;
+}
+main .community {
+    width: 500px;
+    height: 500px;
+}
+
 .form {
     text-align: center;
     padding: 0.5rem;
